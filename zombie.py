@@ -63,6 +63,9 @@ class Zombie:
 
     def handle_collision(self, group, other):
         if group == 'zombie:ball':
+            if other.stopped:
+                return
+
             game_world.remove_object(other)
             if self.scale == 1.0:
                 self.scale = 0.5
