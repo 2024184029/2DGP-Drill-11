@@ -75,4 +75,3 @@ class Zombie:
 
         if group == 'boy:zombie':
             game_framework.quit()
-
