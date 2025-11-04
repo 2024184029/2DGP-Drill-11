@@ -74,5 +74,5 @@ class Zombie:
                 game_world.remove_object(self)
 
         if group == 'boy:zombie':
-            pass
+            game_framework.quit()
 
