@@ -73,3 +73,6 @@ class Zombie:
             else:
                 game_world.remove_object(self)
 
+        if group == 'boy:zombie':
+            pass
+
