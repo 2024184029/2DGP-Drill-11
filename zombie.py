@@ -69,6 +69,7 @@ class Zombie:
             game_world.remove_object(other)
             if self.scale == 1.0:
                 self.scale = 0.5
+                self.y -= 50
             else:
                 game_world.remove_object(self)
 
